@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.section{
+  font-family: 'Poppins', sans-serif;
+  max-width: 100%;
+  height: 100vh;
+  background-color: #161622;
+  position: relative;
+  overflow: hidden;
+}
+/* .section .container{
+  width: 100%;
+} */
+.section::before{
+  content: '';
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  border-radius: 50%;
+  border: 45px solid #275367;
+}
+.section::before{
+  left: -20%;
+  top: -35%;
+}
+.section .frame1,.section .frame2{
+ position: absolute;
+}
+.section .frame1{
+  top: 50%;
+  left: 5%;
+}
+.section .frame2{
+  top: 70%;
+  right: 5%;
+}
+.section .frame3{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 45px solid #275367;
+position: absolute;
+transform: translateY(-5%);
+right: -130px;
+}
+.section .text{
+  color:  white;
+  text-align: center;
+  width: 600px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.section .text h1{
+ margin: 0;
+ font-size: 150px;
+}
+.section .text h2{
+  margin: 0;
+  margin-top:-30px;
+  font-size: 40px;
+}
+.section .text button{
+  background-color: white;
+  border: none;
+  border-radius: 90px;
+  padding: 15px 40px;
+  color: black;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}

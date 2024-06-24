@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.section{
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  padding: 25px 0;
+}
+.section .container{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.section h1{
+  text-align: center;
+}
+.section .container .img{
+  width: 40%;
+}
+.section .container .text{
+  width: 50%;
+}
+.section .container .img img{
+  width: 100%;
+}
+/* .section1 .container .img img{
+  width: 100%;
+    position: relative;
+    transform: translateY(40px);
+    animation-name: up-and-down;
+    animation-duration: 3.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes up-and-down {
+  0%,100%{
+       transform: translateY(25px);
+  }
+  50%{
+       transform: translateY(-25px);
+  }
+} */

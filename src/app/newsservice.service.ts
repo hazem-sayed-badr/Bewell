@@ -1,8 +1,10 @@
+import { Newdetail } from "./news/detail.model";
+
 export class NewsService
 {
-  newsdetail=[
+  newsdetail:Newdetail[]=[
     {id:1,
-     imgurl:"images/newsdetail1.png",
+      imageurl:"images/newsdetail1.png",
      h2:"Automotive Accessibility: Steering Towards Inclusive Mobility",
      detail:`Last week, the latest technologies in in-cabin sensing, advanced driver assistance systems (ADAS) and autonomous driving (AD) were presented during the colocation of InCabin and AutoSens USA in Detroit, Michigan, organised by Sense Media.<br><br>
       In line with emerging standards and regulations, developments in these sectors are largely driven by the demand to improve safety. With driver-related factors such as error, impairment, fatigue, and distraction contributing to approximately 90% of road accidents,¹ systems that monitor, assist, or take over from human drivers are invaluable tools for mitigating risks and saving lives.`,
@@ -14,7 +16,7 @@ export class NewsService
       Finally, Town also suggested that the value of the technologies  presented at AutoSens and InCabin should be considered beyond automotive  vehicles. For example, by installing sensors on equipment such as  mobility scooters, ease of use for disabled people could be improved in  scenarios such as trying to park in a narrow space on a bus.`
     },
     {id:2,
-      imgurl:"images/newsdetail2.png",
+      imageurl:"images/newsdetail2.png",
       h2:"Smart Eye Unveils Its Latest Drowsiness Detection Technology",
       detail:`Smart Eye has announced the release of its Smart Eye Pro 12 eye  tracking technology, which includes Profile ID and drowsiness detection  capabilities. <br>
         This technology has initially been developed for automotive projects to improve safety and customer satisfaction.<br>
@@ -26,7 +28,7 @@ export class NewsService
        detail2:` `
      },
      {id:3,
-      imgurl:"images/newsdetail3.png",
+      imageurl:"images/newsdetail3.png",
       h2:"Automotive Accessibility: Steering Towards Inclusive Mobility",
       detail:`The University of Surrey has launched a new network in collaboration  with the University of the West of England and the University of Bristol  to ensure self-driving vehicles are safely rolled out across the UK. <br>
                 The MASSDRIVE project (Methods for Assurance of Self-Driving  Vehicles) is funded by Innovate UK to help the nation and industry  develop methods for approving and certifying self-driving cars. <br> <br>

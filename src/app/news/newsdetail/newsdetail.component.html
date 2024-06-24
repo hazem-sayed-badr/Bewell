@@ -1,20 +1,14 @@
 <div class="section">
   <div class="container">
     <div class="banner">
-      <img src="images/newsdetail1.png" alt="bannerimg">
-      <h2>Automotive Accessibility: Steering <br> Towards Inclusive Mobility</h2>
+      <img [src]="selectedNew.imageurl" alt="bannerimg">
+      <h2>{{selectedNew.h2}}</h2>
     </div>
      <p class="detail">
-      Last week, the latest technologies in in-cabin sensing, advanced driver assistance systems (ADAS) and autonomous driving (AD) were presented during the colocation of InCabin and AutoSens USA in Detroit, Michigan, organised by Sense Media.
-      <br> <br>
-      In line with emerging standards and regulations, developments in these sectors are largely driven by the demand to improve safety. With driver-related factors such as error, impairment, fatigue, and distraction contributing to approximately 90% of road accidents,¹ systems that monitor, assist, or take over from human drivers are invaluable tools for mitigating risks and saving lives.
+      {{selectedNew.detail}}
      </p>
-     <h1>Challenges & Considerations</h1>
-     <p class="detail2">It is important to note that ensuring equity and accessibility in  this sector does not solely consist of installing autonomous driving  technologies in wheelchair-compatible vehicles.
-      Indeed, Maria Town noted other crucial challenges that need to be  overcome, such as ensuring the technology interacts appropriately with  disabled people. For example, in some cases, sensors have identified the  back of a wheelchair as a trash can, rather than a pedestrian, thus  posing significant potential safety risks. This highlights the need for  systems to be accurate and experienced when identifying and labelling  their surroundings.
-      <br><br><br>
-      Furthermore, Town emphasised the importance of ensuring licensing  regulations do not become a barrier to the utility of autonomous driving  for disabled people. Indeed, if states require AV users to hold a  driver’s license, despite not needing to drive the car, the potential  for these vehicles to deliver independence to those who cannot drive  would be greatly diminished.
-      Finally, Town also suggested that the value of the technologies  presented at AutoSens and InCabin should be considered beyond automotive  vehicles. For example, by installing sensors on equipment such as  mobility scooters, ease of use for disabled people could be improved in  scenarios such as trying to park in a narrow space on a bus.</p>
+     <h1>{{selectedNew.h1}}</h1>
+     <p class="detail2">{{selectedNew.detail2}}</p>
  </div>
 </div>
 

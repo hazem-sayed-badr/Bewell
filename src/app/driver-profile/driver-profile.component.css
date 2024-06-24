@@ -1,0 +1,95 @@
+.section{
+ width: 100%;
+ padding: 10px 0;
+ font-family: 'Popins',sans-serif;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center  ;
+}
+.section h1{
+  text-align: center;
+  font-size: 40px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.container .pr1,.section .pr2{
+ width: 150px;
+ position: absolute;
+}
+.container .pr1{
+  top: 0;
+  left: 0 ;
+}
+.container .pr2{
+ right: 0;
+ bottom: 0;
+}
+.container .card{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.container .card i{
+  font-size: 20px;
+  margin-right: 25px;
+  color: #1340FF;
+}
+.container .card h3{
+  color: #1340FF;
+}
+.container .card h3{
+  color: #1340FF;
+}
+.container .meta .pic{
+  width: 100%;
+  margin-left: 40px;
+}
+.container .meta .pic a{
+ text-decoration: none;
+ background-color: #276DF1;
+ color: white ;
+ padding: 8px 20px;
+ border-radius: 6px;
+}
+.container .meta2{
+  margin-top: 70px;
+}
+.container .meta2 h2{
+  margin: 0px;
+}
+.container .meta2 p{
+  margin-top:10px;
+  line-height: 1.5;
+}
+.container .meta2 button
+{
+  background-color: #276DF1;
+  color: white;
+  cursor: pointer;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-left: 70px;
+  outline: none;
+  border-color: #276DF1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+.container .meta2 button i{
+  font-size: 18px;
+  margin-right: 5px;
+}
+button.db{
+  background-color: #1340FF;
+  color: white;
+  cursor: pointer;
+  border-color: #1340FF;
+  border-radius: 6px;
+  padding: 15px 35px;
+  font-size: 16px;
+}
