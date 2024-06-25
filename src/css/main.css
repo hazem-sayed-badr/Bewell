@@ -34,7 +34,7 @@ body.authentication {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/bg5.jpeg);
+  background: url(../../img/bg5.jpeg);
   background-size: cover;
   background-position: center center;
 }
@@ -354,7 +354,7 @@ a.bg-danger:focus {
 
 /************************************************
 	************************************************
-									A6. Animations CSS							
+									A6. Animations CSS
 	************************************************
 ************************************************/
 @-webkit-keyframes slideInUp {
